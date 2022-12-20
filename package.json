@@ -1,0 +1,30 @@
+{
+  "name": "videochatappwithwebrtc",
+  "version": "1.0.0",
+  "description": "Video Chat App With WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentedwards-nz/VideoChatAppWithWebRTC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentedwards-nz/VideoChatAppWithWebRTC/issues"
+  },
+  "homepage": "https://github.com/brentedwards-nz/VideoChatAppWithWebRTC#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "peer": "^0.6.1",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
